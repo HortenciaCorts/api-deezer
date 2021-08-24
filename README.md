@@ -22,6 +22,8 @@ Para isso será utilizado a API do Deezer para requisitar os dados necessários,
 
 ### 🎨  Layout <a id="layout"></a>
 
+![enter image description here](https://github.com/HortenciaCorts/api-deezer/blob/main/src/images/api-deezer.gif?raw=true)
+
 ### 📚  Sobre o desafio <a id="layout"></a>
 
 - [x] Bibliotecas e patterns Indispensáveis;
