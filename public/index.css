@@ -1,0 +1,90 @@
+/*menu fixo*/
+/* body{
+    position: relative;
+}
+header{
+    position: fixed;    
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 1px 3px 0 rgb(0, 0, 0, 0.1), 0 1px 2px 0 rgb(0, 0, 0, 0.06);
+} */
+/*container*/
+.albums-container, 
+.playlists-container, 
+.podcasts-container,
+.destaques-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+/*global*/
+#chart h2{
+    text-align: center;
+}
+h5{
+    width: 10rem;
+}
+li{
+    list-style: none;
+}
+audio {
+    width: 168px;
+    height: 30px;
+}
+td{
+    text-align: center;
+}
+/*card*/
+.card{
+    margin: 8px;
+    width: 202px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.artists-container{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    text-align: center;
+}
+.artists-container .card-artists{
+    margin-bottom: 30px;
+}
+/*images*/
+img{
+    border-radius: 12px;
+}
+.albums-container img, 
+.playlists-container img,
+.podcasts-container img{
+    width: 200px;
+}
+img.small-img{
+    width: 56px;
+}
+.img-artist{
+    border-radius: 50%;
+}
+/*favorite*/
+svg.active{    
+    fill: currentcolor;
+    flex-shrink: 0;
+    color: rgb(239, 84, 102);
+    width: 20px
+}
+.button-fav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px){
+    .container{
+        max-width: 902px;
+    } 
+}
