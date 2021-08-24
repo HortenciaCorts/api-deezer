@@ -7,7 +7,7 @@
 
 <p align="center">  
 	<a href="#sobre-desafio">Sobre o desafio</a> •
-	<a href="#sobre-requisitos">Requisitos</a> •
+	<a href="#requisitos">Requisitos</a> •
 	<a href="#layout">Layout</a> • 
 	<a href="#executar-projeto">Como executar o projeto</a> • 
 	<a href="#tecnologias">Tecnologias</a> • 
@@ -24,7 +24,7 @@ Para isso será utilizado a API do Deezer para requisitar os dados necessários,
 
 ![enter image description here](https://github.com/HortenciaCorts/api-deezer/blob/main/src/images/api-deezer.gif?raw=true)
 
-### 📚  Sobre o desafio <a id="layout"></a>
+### 📚  Requisitos <a id="requisitos"></a>
 
 - [x] Bibliotecas e patterns Indispensáveis;
 - [x] ReactJs ou ReactNative for web;
