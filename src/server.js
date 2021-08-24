@@ -5,13 +5,6 @@ const app = express()
 
 app.use(cors())
 
-app.get('/album', async(req, res) => {
-    //response é a resposta do axios, mas eu tiro o data de dentro do response
-    const { data } = await axios('https://api.deezer.com/album/302127')
-    console.log(res.json(data))
-    
-    return res.json(data)
-})
 app.get('/chart', async(req, res) => {
     //response é a resposta do axios, mas eu tiro o data de dentro do response
     const { data } = await axios('https://api.deezer.com/chart')
